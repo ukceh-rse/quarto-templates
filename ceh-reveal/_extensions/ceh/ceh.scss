@@ -1,10 +1,5 @@
 /*-- scss:defaults --*/
 
-$body-bg: whitesmoke !default;
-$body-color: black !default;
-$link-color: green !default;
-$presentation-heading-color: steelblue !default;
-$presentation-h1-font-size: 2.0em !default;
 $presentation-title-slide-text-align: left !default;
 
 /*-- scss:rules --*/
@@ -33,4 +28,3 @@ $presentation-title-slide-text-align: left !default;
 .reveal .slide-number > a[href*='title-slide'] {
     display: none;
 }
-
