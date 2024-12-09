@@ -3,14 +3,12 @@ title: Untitled
 format:
   ceh-revealjs: default
 
-authors:
-  - name: Joe Marsh Rossney
-    affiliation:
-      - name: UK Centre for Ecology & Hydrology
-        url: https://ceh.ac.uk
-    email: joemar@ceh.ac.uk
-    url: https://github.com/jmarshrossney
-    orcid: 0000-0002-8082-8566
+author:
+  name: Joe Marsh Rossney
+  affiliation: UK Centre for Ecology & Hydrology
+  email: joemar@ceh.ac.uk
+  url: https://github.com/jmarshrossney
+  orcid: 0000-0002-8082-8566
 
 date: last-modified
 date-format: long

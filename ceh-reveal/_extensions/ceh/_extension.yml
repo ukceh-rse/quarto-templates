@@ -6,8 +6,9 @@ contributes:
   formats:
     revealjs:
       theme: [default, ceh.scss]
+      footer: <a href="https://www.ceh.ac.uk">www.ceh.ac.uk</a>
       slide-number: c/t
       show-slide-number: all
       progress: true
       embed-resources: true
-      footer: www.ceh.ac.uk
+      html-math-method: katex
