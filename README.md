@@ -19,35 +19,24 @@ This repository is intended to provide templates for Quarto documents, with a co
 To create a new project using a template, run
 
 ```sh
-quarto use template ukceh-rse/quarto-templates/ceh-<format>
+quarto use template ukceh-rse/quarto-templates/<format>
 ```
 
-where `ceh-<format>` should be the name of one of the subdirectories in this repository.
+where `<format>` should be the name of one of the subdirectories in this repository.
 
 E.g. to use the RevealJS template
 
 ```sh
-quarto use template ukceh-rse/quarto-templates/ceh-reveal
+quarto use template ukceh-rse/quarto-templates/revealjs
 ```
 
-Refer to [the documentation](https://quarto.org/docs/extensions/formats.html#distributing-formats) for further details.
+## Working with _brand.yml
 
+You also need a local copy of the `_brand.yml` configuration file, which is hosted over at [github.com/ukceh-rse/brand-yml](https://github.com/ukceh-rse/brand-yml).
+This file defines colours, typography, logos and layouts for maintaining consistent branding across formats.
 
-## Relationship with `_brand.yml`
+For now, the easiest way to proceed is to symlink `_brand.yml` and the `logos/` directory into the project directory. This should improve in the future - see [this issue](https://github.com/ukceh-rse/quarto-templates/issues/1).
 
-The [`_brand.yml` configuration file](https://github.com/ukceh-rse/brand-yml) defines colours, typography, logos and layouts for maintaining consistent branding across formats.
-
-In principle, `_brand.yml` should allow us to single-source this information.
-Then, templates would only need to define structural elements specific to their specific format.
-
-However, `_brand.yml` is in the very early stages of being integrated in the Quarto ecosystem, so the documentation in sparse and not everything works 'out of the box' right now.
-
-In particular, it is not yet clear to me how best to incorporate a `_brand.yml` held in a separate GitHub repository into these templates.
-(Note that `_brand.yml` is more general than Quarto.)
-
-## Contributing
-
-To do. For now, just raise an issue or contact me (Joe).
 
 ## Inspiration
 
