@@ -1,3 +1,5 @@
-template.html
+*.html
+*.pdf
+
 _brand.yml
 logos
