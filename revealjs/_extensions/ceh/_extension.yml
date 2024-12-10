@@ -11,4 +11,3 @@ contributes:
       show-slide-number: all
       progress: true
       embed-resources: true
-      html-math-method: katex

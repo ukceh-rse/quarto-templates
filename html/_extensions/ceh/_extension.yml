@@ -5,14 +5,13 @@ quarto-required: ">=1.6.0"
 contributes:
   formats:
     html:
-      theme: [default, custom.scss]
+      theme: 
+        light: default
+        dark: [default, dark.scss]
       toc: true
       toc-location: left
-      html-math-method: katex
       embed-resources: true
       code-copy: true
       code-overflow: wrap
       code-line-numbers: false
-      code-block-bg: light-grey
       link-external-newwindow: true
-      monobackgroundcolor: $brand-light-grey
