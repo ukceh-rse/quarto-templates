@@ -8,26 +8,23 @@ This repository is intended to provide templates for Quarto documents, with a co
 
 ## Output formats
 
-- [ ] HTML
+- [x] HTML
 - [ ] DOCX
-- [ ] PDF
-- [ ] RevealJS (see also https://github.com/ukceh-rse/quarto-reveal-template)
-- [ ] Typst (pdf document, poster, ...)
+- [x] Typst PDF
+- [x] RevealJS presentation
 
 ## Usage
 
-To create a new project using a template, run
+To create a new project using the template, run
 
 ```sh
-quarto use template ukceh-rse/quarto-templates/<format>
+quarto use template ukceh-rse/quarto-templates
 ```
 
-where `<format>` should be the name of one of the subdirectories in this repository.
-
-E.g. to use the RevealJS template
+Then to render a specific format, e.g. HTML,
 
 ```sh
-quarto use template ukceh-rse/quarto-templates/revealjs
+quarto render template.qmd --to ceh-html
 ```
 
 ## Working with _brand.yml

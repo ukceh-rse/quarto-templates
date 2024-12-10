@@ -1,10 +1,9 @@
 ---
 title: Untitled Document
 format:
-  #ceh-html: default
-  #ceh-revealjs: default
+  ceh-html: default
+  ceh-revealjs: default
   ceh-typst: default
-  #ceh-pdf: default
 
 author:
   name: Joe Marsh Rossney
@@ -63,8 +62,7 @@ I recommend using footnotes to reference literature^[For example, [@Bender2021, 
 
 ## More information
 
-
-More information on Quarto and RevealJS presentations can be found in the [Quarto documentation](https://quarto.org/docs/presentations/).
+See https://quarto.org/docs/guide/
 
 
 <!-- Delete this slide if you have no references -->
