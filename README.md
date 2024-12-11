@@ -36,7 +36,7 @@ quarto use template ukceh-rse/quarto-templates/<subdir>
 
 where `<subdir>` is the name of the subdirectory of this repository containing an extension and template, or template only.
 
-To render the document or project to a specific format (e.g. `html`, `pdf`), run
+To render the document or project to a specific format (`html`, `pdf`, `typst`, `revealjs`, `docx`), run
 
 ```sh
 quarto render <document>.qmd --to <extended-format>
@@ -44,13 +44,13 @@ quarto render <document>.qmd --to <extended-format>
 
 where `<extended-format>` is structured as `<extension>-<format>`.
 
-For example, if you use the `basic` extension & template, which implements `basic-html` and `basic-pdf`, to create a document called `test-doc.qmd`, you can render to html using
+For example, if you use the `document` extension & template, which implements `document-html` and `document-typst`, to create a document called `test-doc.qmd`, you can render to html using
 
 ```sh
-quarto render test-doc.qmd --to basic-html
+quarto render test-doc.qmd --to document-html
 ```
 
-You can omit the `--to <extended-format>` if you want to render to all available formats (in this case html and pdf), or if there is only one format implemented (e.g. for a presentation).
+You can omit the `--to <extended-format>` if you want to render to all available formats (in this case `html` and `typst`), or if there is only one format implemented (e.g. for a presentation).
 
 
 ### Starting from an existing document or project

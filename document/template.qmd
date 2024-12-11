@@ -16,8 +16,8 @@ abstract: This is the abstract
 bibliography: references.bib
 
 format:
-  basic-html: default
-  basic-typst: default
+  document-html: default
+  document-typst: default
 ---
 
 ## Introduction
