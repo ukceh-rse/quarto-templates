@@ -1,25 +1,31 @@
 ---
-title: Untitled
-format:
-  ceh-revealjs: default
-
+title: Untitled Document
+#subtitle: Subtitle
 author:
   name: Joe Marsh Rossney
-  affiliation: UK Centre for Ecology & Hydrology
+  affiliation:
+    name: UK Centre for Ecology & Hydrology
+    url: https://www.ceh.ac.uk
   email: joemar@ceh.ac.uk
   url: https://github.com/jmarshrossney
   orcid: 0000-0002-8082-8566
-
 date: last-modified
 date-format: long
+abstract: This is the abstract
 
 bibliography: references.bib
-csl: https://www.zotero.org/styles/apa
+
+format:
+  document-html: default
+  document-typst: default
 ---
 
-## Slide titles are h2 headings
+## Introduction
 
-This slide shows the different levels of heading, from h2 (the slide title) down to h6.
+
+## An h2 heading
+
+Here we see the different levels of heading, from h2 down to h6.
 
 ### An h3 heading
 
@@ -29,10 +35,8 @@ This slide shows the different levels of heading, from h2 (the slide title) down
 
 ###### An h6 heading
 
-It looks like h4 is the smallest.
 
-
-## Second slide
+## Different kinds of text
 
 This sentence contains some _italicised text_, some **bold text**, some `monospace text`, and finally some [linked text](https://github.com/ukceh-rse/quarto-templates).
 
@@ -52,10 +56,9 @@ $$
 I recommend using footnotes to reference literature^[For example, [@Bender2021, page 3-5] ]
 
 
-## Third slide
+## More information
 
-
-More information on Quarto and RevealJS presentations can be found in the [Quarto documentation](https://quarto.org/docs/presentations/).
+See https://quarto.org/docs/guide/
 
 
 <!-- Delete this slide if you have no references -->

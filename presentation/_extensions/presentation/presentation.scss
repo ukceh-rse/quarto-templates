@@ -1,0 +1,57 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root: 35px !default;
+$presentation-title-slide-text-align: left !default;
+
+/*-- scss:rules --*/
+
+// Make the logo appear in the bottom left corner
+.reveal .slide-logo {
+    width: auto !important;
+    height: auto !important;
+    max-height: 4rem !important;
+    left: 16px;
+}
+
+// Make the menu button appear in the top left corner
+.reveal .slide-menu-button {
+    left: 8px;
+    bottom: unset;
+    top: 8px;
+}
+
+// Make the slide number appear in the bottom right corner
+.reveal .slide-number {
+    top: unset !important;
+    right: 8px !important;
+    bottom: 8px !important;
+    font-size: 24px !important;
+}
+
+
+// Adjust the width and font color of the title page
+.reveal .slides > section:first-child {
+    width: 70% !important;
+    color: white !important;
+}
+
+// Adjust the 
+.reveal .quarto-title-block .title {
+    color: white !important;
+    font-size: 1.8em !important;
+}
+
+
+.closing-slide {
+    color: white;
+}
+
+.closing-slide h1,
+.closing-slide h2,
+.closing-slide h3,
+.closing-slide h4,
+.closing-slide h5,
+.closing-slide h6 {
+    color: white;
+    font-size: 1.6em !important;
+}
