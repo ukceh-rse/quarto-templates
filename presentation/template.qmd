@@ -56,5 +56,8 @@ I recommend using footnotes to reference literature^[For example, [@Bender2021, 
 See https://quarto.org/docs/guide/
 
 
+# Thank you {.closing-slide .no-logo .no-footer background-image="assets/closing.svg"}
+
+
 <!-- Delete this slide if you have no references -->
 ## References {.scrollable}

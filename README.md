@@ -8,8 +8,8 @@ This repository is intended to provide templates for Quarto documents, with a co
 
 ## Types of template/extension (planned and implemented)
 
-- [ ] Basic document template (html, pdf)
-- [ ] Presentation (revealjs) mirroring official UKCEH powerpoint template
+- [x] Basic document template (html, pdf)
+- [x] Presentation (revealjs) mirroring official UKCEH powerpoint template
 - [ ] Report (html, pdf, docx) mirroring offical UKCEH report template
 - [ ] Manuscript (project template)
 - [ ] Book (project template)
